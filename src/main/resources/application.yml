@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    password: diyor
+    url: jdbc:postgresql://localhost:5433/click_up
+    username: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: diyorelmirzayev2003@gmail.com
+    password: occxgtwtpmomudhq
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: smtp.gmail.com
+          auth: true
+          starttls:
+            enable: true
